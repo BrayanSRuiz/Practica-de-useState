@@ -1,0 +1,10 @@
+.lista {
+  list-style: none;
+  background-color: aqua;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.otroColor {
+  background-color: red;
+}
