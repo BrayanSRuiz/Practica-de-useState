@@ -3,8 +3,9 @@ import styles from './css/Rey.module.css'
 export const Rey = ( {rey, setTotal, total} ) => {
   const imageURL = `https://www.html6.es/img/rey_${rey.name}.png`
 
-  const comprar = () => {
+  const comprar = (e) => {
     setTotal(total + rey.precio)
+    e.target.parentNode.remove()
   }
   return (
       <li className={styles.lista}>
